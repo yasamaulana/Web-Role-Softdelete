@@ -20,6 +20,7 @@ class User extends Seeder
                 'name' => 'Anonymous Admin',
                 'username' => 'admin',
                 'email' => 'admin@localhost',
+                'role' => 'admin',
                 'password' => Hash::make('admin'),
                 'created_at' => date('Y-m-d h:i:s'),
                 'updated_at' => date('Y-m-d h:i:s'),
